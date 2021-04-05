@@ -1,3 +1,13 @@
+/* General Style */
+body {
+  font-family: "Exo 2", sans-serif;
+}
+
+p {
+  font-family: "Exo 2", sans-serif;
+  font-size: 14px;
+}
+
 /* Header */
 .header_total {
   position: fixed;
@@ -8,8 +18,9 @@
 
 .title {
   background: #2f00ff;
+  background: linear-gradient(to right, #2f00ff, #744eff);
   width: 100%;
-  height: 150px;
+  height: 145px;
   padding: 5px 0;
   text-align: center;
   color: white;
@@ -18,23 +29,34 @@
 .title h2 {
   font-family: "Exo 2", sans-serif;
   font-size: 25px;
-  padding-top: 5px;
+  padding-top: 25px;
 }
 
-.title p {
-  font-family: "Exo 2", sans-serif;
-  font-size: 14px;
+.subtitle:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 0.1rem;
+  background: white;
+  margin: 8px auto;
 }
 
-.title i {
-  font-size: 25px;
-  padding: 15px;
+.ui .button {
+  font-family: "Exo 2", sans-serif !important;
+  font-size: 18px !important;
 }
 
-.column-1 {
-  background: red;
+.ui .left .button {
+  border-radius: 15px 0 0 15px !important;
 }
 
-.column-2 {
-  background: blue;
+.ui .right .button {
+  border-radius: 0 15px 15px 0 !important;
+}
+
+.ui .button i {
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  margin: 0 auto;
+  color: #2f00ff;
 }

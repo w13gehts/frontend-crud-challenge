@@ -68,6 +68,12 @@ p {
   color: #2f00ff;
 }
 
+.ui .button a {
+  color: rgb(49, 49, 49) !important;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+}
+
 .footer {
   position: absolute;
   bottom: 0;

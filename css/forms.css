@@ -1,0 +1,35 @@
+/* form */
+.form_total {
+  background: linear-gradient(to right, #e9e4ffd0, #c1b0ffcb), center no-repeat;
+  height: 100%;
+  padding: 250px 0 0 100px;
+  width: 50%;
+  font-family: "Exo 2", sans-serif !important;
+  font-size: 14px;
+  position: fixed;
+  float: right;
+}
+
+.gender {
+  font-family: "Exo 2", sans-serif;
+  font-size: 14px;
+  margin: 20px 0 2px 0;
+}
+
+/* divider */
+.register {
+  background: linear-gradient(to right, #2f00ffd0, #744effcb),
+    url(../img/bg-search.jpg) center no-repeat;
+  height: 100%;
+  padding: 100px 0 0 100px;
+  width: 50%;
+  float: right;
+}
+
+.register .subtitle {
+  padding-top: 200px;
+}
+
+.register .button {
+  margin: 100px 0 0 -100px !important;
+}

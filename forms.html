@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en_us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Challenge by JRousseau</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/forms.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;400;600&display=swap" rel="stylesheet">
+
+  <!-- library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+</head>
+
+<body>
+  <section class="form_total">
+    <div class="ui form">
+      <div class="two fields">
+        <div class="field">
+          <label>First Name</label>
+          <input placeholder="" type="text">
+
+          <label>Last Name</label>
+          <input placeholder="" type="text">
+
+          <label>E-mail</label>
+          <input type="email" placeholder="yourname@gmail.com">
+
+          <label>Phone Number</label>
+          <input type="text" placeholder="(xxx)">
+
+          <label>National ID</label>
+          <input type="text" placeholder="1234567890">
+
+          <select class="gender">
+            <option value="">Gender</option>
+            <option value="2">Male</option>
+            <option value="1">Female</option>
+            <option value="0">Other</option>
+          </select>
+
+          <label>Address</label>
+          <div class="fields">
+            <div class="twelve wide field">
+              <input type="text" name="[address]" placeholder="Street Address">
+            </div>
+            <div class="four wide field">
+              <input type="text" name="[address-2]" placeholder="Apt #">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="register">
+    <div class="info title">
+      <h2 class="subtitle">Fill in the form to proceed</h2>
+      <p>We are thankful to have you here.</p>
+    </div>
+    <div class="ui large buttons">
+      <div class="right"> <button class="ui right attached button">Send<i class="chevron right icon"></i></button></div>
+    </div>
+  </section>
+</body>
+
+</html>
